@@ -5,7 +5,8 @@
 
   <ul>
     <% @list.tasks.each do |task| %>
-      <li><%= task.description %> </li>
+      <li> Task: <%= task.description %> Due: <%= task.due_date %></li>
+
     <% end %>
   </ul>
 
